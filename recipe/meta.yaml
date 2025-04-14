@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/clmm-{{ version }}.tar.gz
-  sha256: edfab4226e7eba3a21b5cf938d5ac1a72cedfa020c6c6d9796e1021a99b13afc
+  sha256: 7dc9cc4ecb278935afdf691fb2d3635c9e04a335155a4da0f006bf9f2b848d8a
 
 build:
   noarch: python
