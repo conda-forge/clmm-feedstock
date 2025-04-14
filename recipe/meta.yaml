@@ -1,5 +1,5 @@
 {% set name = "clmm" %}
-{% set version = "1.14.40" %}
+{% set version = "1.16.1" %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +20,7 @@ requirements:
     - hatchling
     - pip
   run:
-    - python >={{ python_min }},<3.13a0
+    - python >={{ python_min }}
     - astropy >=4,!=5.0
     - matplotlib-base
     - numpy >=1.17
