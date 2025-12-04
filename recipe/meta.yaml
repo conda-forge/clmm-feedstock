@@ -1,5 +1,5 @@
 {% set name = "clmm" %}
-{% set version = "1.16.7" %}
+{% set version = "1.16.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/clmm-{{ version }}.tar.gz
-  sha256: 9b5d8f8290bd3ced6b036de40ebeb8ad93c80e515f23b8aae452da52ef5ce889
+  sha256: 48273784419c038a89619b798a140153ad1e451390ff56074f3b6825c91ebe32
 
 build:
   noarch: python
